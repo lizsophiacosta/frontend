@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Emerald - Gerenciar</title>
+</head>
+
+<body>
+    <div class="auth-container">
+        <div class="glass-card" style="max-width: 550px;">
+            <h2>Gerenciar Tarefa</h2>
+            <form action="dashboard.html" style="margin-top: 25px;">
+                <label style="font-size: 12px;">TÍTULO DA DEMANDA</label>
+                <input type="text" placeholder="Ex: Ajustar servidor" required>
+                <label style="font-size: 12px;">DESCRIÇÃO COMPLETA</label>
+                <textarea rows="6" placeholder="Detalhe o que precisa ser feito..."></textarea>
+                <div style="display: flex; gap: 10px;">
+                    <button type="submit" class="btn btn-emerald">Salvar Alterações</button>
+                    <button type="button" class="btn btn-outline" onclick="history.back()">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

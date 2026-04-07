@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Emerald - Dashboard</title>
+</head>
+
+<body>
+    <div class="dashboard-wrapper">
+        <header style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 50px;">
+            <h1>Emerald<span style="color: var(--primary-emerald)">Tasks</span></h1>
+            <a href="criar.html" class="btn btn-emerald" style="width: auto;">+ Nova Tarefa</a>
+        </header>
+
+        <div class="task-grid">
+            <div class="emerald-task">
+                <span class="status-badge">EM ANDAMENTO</span>
+                <h3 style="margin: 15px 0;">Otimização de Query</h3>
+                <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 20px;">Melhorar a performance das
+                    buscas no banco esmeralda.</p>
+                <div style="display: flex; gap: 10px;">
+                    <a href="detalhes.html" class="btn btn-outline" style="padding: 8px;">Detalhes</a>
+                    <a href="editar.html" class="btn btn-emerald" style="padding: 8px; font-size: 0.7rem;">Editar</a>
+                </div>
+            </div>
+
+            <div class="emerald-task"><span class="status-badge">PENDENTE</span>
+                <h3 style="margin: 15px 0;">Backup Semanal</h3>
+                <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 20px;">Backup dos logs de acesso.</p>
+                <a href="detalhes.html" class="btn btn-outline" style="padding: 8px;">Detalhes</a>
+            </div>
+            <div class="emerald-task"><span class="status-badge">PENDENTE</span>
+                <h3 style="margin: 15px 0;">Revisão de Código</h3>
+                <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 20px;">Módulo de autenticação.</p><a
+                    href="detalhes.html" class="btn btn-outline" style="padding: 8px;">Detalhes</a>
+            </div>
+            <div class="emerald-task"><span class="status-badge">ATIVO</span>
+                <h3 style="margin: 15px 0;">Deploy Staging</h3>
+                <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 20px;">Subir versão 2.0.</p><a
+                    href="detalhes.html" class="btn btn-outline" style="padding: 8px;">Detalhes</a>
+            </div>
+            <div class="emerald-task"><span class="status-badge">ATIVO</span>
+                <h3 style="margin: 15px 0;">Ajuste UI</h3>
+                <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 20px;">Cores dos botões.</p><a
+                    href="detalhes.html" class="btn btn-outline" style="padding: 8px;">Detalhes</a>
+            </div>
+            <div class="emerald-task"><span class="status-badge">URGENTE</span>
+                <h3 style="margin: 15px 0;">Bug Fix</h3>
+                <p style="color: var(--text-dim); font-size: 14px; margin-bottom: 20px;">Erro no login social.</p><a
+                    href="detalhes.html" class="btn btn-outline" style="padding: 8px;">Detalhes</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
